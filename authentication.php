@@ -15,9 +15,9 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-            echo "<h1><center> Login successful </center></h1>";  
+            echo "<h1><center> Login Successful </center></h1>";  
         }  
         else{  
-            echo "<h1> Login failed. Invalid username or password.</h1>";  
+            echo "<h1> Login Failed!!! Invalid Username or Password.</h1>";  
         }     
 ?> 
