@@ -11,6 +11,7 @@
      <img src="SLTC.jpg" 
      width="100%" 
      height="100%" />
+    <div class="form-wrapper">
     <div id = "frm">  
         <h1>Login</h1>  
         <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
@@ -50,6 +51,6 @@
                 }                             
             }  
         </script> 
-
+</div>
 </body>     
 </html>
