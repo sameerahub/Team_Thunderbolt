@@ -1,3 +1,7 @@
+<?php 
+
+?>
+
 <html>  
 <head>  
     <title>PHP login system</title>  
