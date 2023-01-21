@@ -1,4 +1,4 @@
-body {
+//body {
   color: #fff;
   font: 87.5%/1.5em 'Open Sans', sans-serif;
 	background:url("img/SLTC.jpg") no-repeat center ; 
@@ -9,8 +9,8 @@ body {
 
 
 .form-wrapper {
-width:300px;
-height:370px;
+//width:300px;
+//height:370px;
   position: absolute;
   top: 50%;
   left: 48%;
@@ -22,11 +22,11 @@ height:370px;
 }
 
 .form-item {
-width:100%;
+//width:100%;
 }
 
 
-h3{
+//h3{
   font-size: 25px;
   font-weight: 640;
   margin-bottom: 10px;
@@ -50,11 +50,11 @@ h3{
   padding-left: 55px;
 
 }
-input[type='password']{
+//input[type='password']{
 	background: transparent url("img/pass.jpg") no-repeat;
 	background-position: 10px 50%;
 }
-input[type='text']{
+//input[type='text']{
 	background: transparent url("img/user.jpg") no-repeat;
 	background-position: 10px 50%;
 
