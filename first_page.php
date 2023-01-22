@@ -3,7 +3,7 @@
 //  $connect = mysqli_connect("localhost", "root", "", "sams");  
  
  $sql = "SELECT * FROM att  WHERE DATE(record_time) = CURDATE() ORDER BY At_id DESC ";  
- 
+
  $result = mysqli_query($con, $sql);  
  ?>  
 
@@ -47,5 +47,6 @@
                 </div>  
            </div>  
            <br />  
+           <a href='http://localhost/samsb/Team_Thunderbolt/fetch.php'>Click hear to see Email those who got late </a>
       </body>  
  </html> 

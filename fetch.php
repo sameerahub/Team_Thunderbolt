@@ -32,7 +32,7 @@
                                {  
                           ?>  
                           <tr>  
-                               <td><?php echo $row["id"];?></td>  
+                               <td><?php echo $row["sindex"];?></td>  
                                <td><?php echo $row["suspend"];?></td>  
                                <td><?php echo $row["email"]; ?></td>  
                           </tr>  
