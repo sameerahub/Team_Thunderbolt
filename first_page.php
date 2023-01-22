@@ -47,6 +47,6 @@
                 </div>  
            </div>  
            <br />  
-           <a href='http://localhost/samsb/Team_Thunderbolt/fetch.php'>Click hear to see Email those who got late </a>
+           <a href='http://localhost/Team_Thunderbolt/fetch.php'>Click hear to see Email those who got late </a>
       </body>  
  </html> 
