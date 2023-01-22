@@ -15,6 +15,8 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
+            
+            header("Location: http://localhost/samsb/Team_Thunderbolt/first_page.php");
             echo "<h1><center> Login Successful </center></h1>";
             
 
