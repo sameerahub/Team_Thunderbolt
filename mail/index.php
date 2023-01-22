@@ -38,7 +38,7 @@ $mail->Port = 587;
 //Recipients
 // This email-id will be taken
 // from your database
-$mail->setFrom("sams");
+$mail->setFrom("#");
 
 // Selecting the mail-id having
 // the send-mail =1
@@ -55,14 +55,14 @@ if(mysqli_num_rows($res) > 0) {
 	// Set email format to HTML
 	$mail->isHTML(true);
 	$mail->Subject =
-		"Mailer Multiple address in php";
+		"SAMS";
 		
 	$mail->Body = "Hii </p>Myself </h1>Rohit
 	sahu</h1> your Article has been acknowledge
 	by me and shortly this article will be
-	contributing in</p> <h1>Geeks for Geeks !</h1>";
+	contributing in</p> <h1> Welcome to SAMS !</h1>";
 	
-	$mail->AltBody = "Welcome to Geeks for geeks";
+	$mail->AltBody = "You Are late ";
 	
 	if($mail->send())
 	{
