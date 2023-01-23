@@ -28,10 +28,10 @@ $mail->Host = "smtp.gmail.com";
 $mail->SMTPAuth = true;
 
 // SMTP username
-$mail->Username = "blablaback@gmail.com";
+$mail->Username = "devteamthunder@gmail.com";
 
 // SMTP password				
-$mail->Password = "jpgffgr3snf";
+$mail->Password = "tnbiqulqpfrawlvg";
 $mail->SMTPAuth = "tls";
 $mail->Port = 587;		
 

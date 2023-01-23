@@ -80,7 +80,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="home.php" role="button">Confirm</a>
+        <a class="btn btn-primary" href="mail" role="button">Confirm</a>
         
       </div>
     </div>
