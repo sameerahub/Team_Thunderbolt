@@ -55,14 +55,13 @@ if(mysqli_num_rows($res) > 0) {
 	// Set email format to HTML
 	$mail->isHTML(true);
 	$mail->Subject =
-		"SAMS";
+		"Times up Warning!";
 		
-	$mail->Body = "Hii </p>Myself </h1>Rohit
-	sahu</h1> your Article has been acknowledge
-	by me and shortly this article will be
-	contributing in</p> <h1>GO Home Anuthara !</h1>";
+	$mail->Body = "<h3>This is system generated message from student attendance management system.</h3> <h1> Times up! Get Back To campus!</h1>";
 	
 	$mail->AltBody = "You Are late ";
+	
+
 	
 	if($mail->send())
 	{
