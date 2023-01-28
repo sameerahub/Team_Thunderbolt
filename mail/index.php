@@ -31,7 +31,7 @@ $mail->SMTPAuth = true;
 $mail->Username = "devteamthunder@gmail.com";
 
 // SMTP password				
-$mail->Password = "tnbiqulqpfrawlvg";
+$mail->Password = "ramcmihrxkeobezy";
 $mail->SMTPAuth = "tls";
 $mail->Port = 587;		
 
@@ -60,7 +60,7 @@ if(mysqli_num_rows($res) > 0) {
 	$mail->Body = "Hii </p>Myself </h1>Rohit
 	sahu</h1> your Article has been acknowledge
 	by me and shortly this article will be
-	contributing in</p> <h1> Welcome to SAMS !</h1>";
+	contributing in</p> <h1>GO Home Anuthara !</h1>";
 	
 	$mail->AltBody = "You Are late ";
 	
