@@ -1,0 +1,51 @@
+<?php  
+ include('connection.php');  
+//  $connect = mysqli_connect("localhost", "root", "", "sams");  
+ 
+ $sql = "SELECT * FROM att  WHERE DATE(record_time) = CURDATE() ORDER BY At_id DESC ";  
+
+ $result = mysqli_query($con, $sql);  
+ ?>  
+
+ <!DOCTYPE html>  
+ <html>  
+      <head>  
+           <title>sams</title>  
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+      </head>
+ 
+      
+      <body>  
+           <br />  
+           <a href='http://localhost/Team_Thunderbolt/fetch.php'>Click hear to see Email those who got late </a>
+           <div class="container" style="width:500px;margin-right:100px;">  
+                <h3 align="center"> Students those who scan</h3><br />                
+                <div class="table-responsive">  
+                     <table class="table table-striped" >
+                          <tr>  
+                               <th>id</th>  
+                               <th>Student_id</th>  
+                               <th>out_or_in</th>
+                               <th>Date</th>
+                          </tr>  
+                          <?php  
+                          if(mysqli_num_rows($result) >   
+                          <tr>  
+                               <td><?php echo $row["At_id"];?></td>  
+                               <td><?php echo $row["id"];?></td>
+                               <td><?php echo $row["out_or_in"];?>
+                               <td><?php echo $row["record_date"]; ?></td>  
+                          </tr>  
+                          <?php  
+                               }  
+                          }  
+                          ?>  
+                     </table>  
+                </div>  
+           </div>  
+           <br />  
+           
+      </body>  
+ </html> 
